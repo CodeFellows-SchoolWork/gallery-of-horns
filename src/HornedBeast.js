@@ -30,7 +30,7 @@ class HornedBeast extends React.Component {
     return (
       <Card className="hornedBeast">
         <h2>{(this.props.title)}</h2>
-        <img onClick={this.addFavorite} src={this.props.image_Url} alt ={this.props.description}></img>
+        <img onClick={this.addFavorite} src={this.props.image_url} alt ={this.props.description}></img>
         <p>{this.state.numberCog} 🖤</p>
         <p>{(this.props.description)}</p>
         <p>{(this.props.keyword)}</p>
