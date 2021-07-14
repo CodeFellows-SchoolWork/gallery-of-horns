@@ -25,13 +25,19 @@ class Main extends React.Component {
     // dataCog(data);
 
     return (
-      <>
+      <main>
         <HornedBeast
         title={"1"}
         image_Url={"http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg"}
         description={"TEST 1"}
         />
-      </>
+         <HornedBeast
+        title={"2"}
+        image_Url={"http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg"}
+        description={"TEST 2"}
+        />
+
+      </main>
     )
   }
 }

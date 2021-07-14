@@ -1,5 +1,7 @@
 
 import React from 'react';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card'
 import './HornedBeast.css';
 
 class HornedBeast extends React.Component {
@@ -8,7 +10,7 @@ class HornedBeast extends React.Component {
     super(props);
     this.state = {
       numberCog: 0,
-      displayFavorite: false,
+      // displayFavorite: false,
     }
   };
 
@@ -18,24 +20,25 @@ class HornedBeast extends React.Component {
     })
   };
 
-  favoriteDisplayed = () => {
-    this.setState({
-      displayFavorite: true,
-    })
-  };
+  // favoriteDisplayed = () => {
+  //   this.setState({
+  //     displayFavorite: true,
+  //   })
+  // };
 
   render() {
     return (
-      <article className="hornedBeast">
+      <Card className="hornedBeast">
         <h2>{(this.props.title)}</h2>
-        <img src={this.props.image_Url} alt ={this.props.description}></img>
-        <p>{this.state.numberCog} Liked</p>
-        <p>{this.state.displayFavorite ? '🖤' : ''}</p>
+        <img onClick={this.addFavorite} src={this.props.image_Url} alt ={this.props.description}></img>
+        <p>{this.state.numberCog} 🖤</p>
         <p>{(this.props.description)}</p>
         <p>{(this.props.keyword)}</p>
         <p>{(this.props.horns)}</p>
-        <button onClick={this.addFavorite}>favorite</button>
-      </article>
+        {/* Still in development*/}
+        {/* <p>{this.state.displayFavorite ? '🖤' : ''}</p> */}
+        <Button onClick={this.addFavorite}>favorite</Button>
+      </Card>
     )
   }
 }
