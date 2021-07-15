@@ -1,4 +1,5 @@
 import React from 'react';
+import CardColumns from 'react-bootstrap/CardColumns';
 import data from './data.json'
 import HornedBeast from './HornedBeast.js';
 
@@ -21,7 +22,9 @@ class Main extends React.Component {
 
     return (
       <main>
-        {dataCog(data)}
+        <CardColumns>
+          {dataCog(data)}
+        </CardColumns>
       </main>
     )
   }

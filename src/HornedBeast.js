@@ -68,33 +68,34 @@ class HornedBeast extends React.Component {
   render() {
     return (
       <Card className="hornedBeast">
-        <h2
+        <Card.Title
           style={{ color: this.state.title }}
           onClick={this.changeTitleCss}>{(this.props.title)}
-        </h2>
+        </Card.Title>
 
-        <img
+        <Card.Img 
+          style={{width:'18rem'}}
           onClick={this.addFavorite}
           src={this.props.image_url}
           alt={this.props.description}>
-        </img>
+        </Card.Img>
 
-        <p id="numberCog"
+        <Card.Text id="numberCog"
           onClick={this.state.changeEmoji}>
           {this.state.numberCog} 🖤
-        </p>
+        </Card.Text>
 
-        <p id="description"
+        <Card.Text id="description"
           style={{ color: this.state.description }}
           onClick={this.changeDescriptionCss}>
           {(this.props.description)}
-        </p>
+        </Card.Text>
 
-        <p id="keyWord"
+        <Card.Text id="keyWord"
           style={{ color: this.state.keyword }}
           onClick={this.changeKeywordCss}>
           {(this.props.keyword)}
-        </p>
+        </Card.Text>
         {/* <p>{(this.props.horns)}</p> */}
         <Button variant="outline-dark"
           onClick={this.addFavorite}>favorite!
