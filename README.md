@@ -10,11 +10,13 @@
 >>Links and Resources:
 >>>submission PR: https://github.com/CodeFellows-SchoolWork/gallery-of-horns/pull/2
 >>>>URL: https://trusting-sinoussi-6233a8.netlify.app
->>>>>Links you used as reference:
->>>>>>Reflections and Comments: Hard coding time was less then i thought but I did spend approx 4-6 Hours doing product research and CSS layout and development,
-I would bill this out as time required to complete the job,
-Total Hours i would charge for my work so far is: 8 Hours, 
-This would take me less time in the future.
+>>>>>GitHub Repo: https://github.com/CodeFellows-SchoolWork/gallery-of-horns
+>>>>>>Links you used as reference:
+>>>>>>>Reflections and Comments: Hard coding time was less then i thought but I did spend approx 4-6 Hours doing product research and CSS layout and development,  
+I would bill this out as time required to complete the job,  
+Total Hours i would charge for my work so far is: 8 Hours,   
+This would take me less time in the future.  
+I'd currently charge $35 an hour if this was a payed job.   
 
 >Number and name of feature: #1: Display images
 >>Estimate amount of time needed to complete: One Hour,
