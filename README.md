@@ -8,9 +8,10 @@
 
 >Author: Brutalism,
 >>Links and Resources:
->>>submission PR:
->>>>Links you used as reference:
->>>>>Reflections and Comments:
+>>>submission PR: https://github.com/CodeFellows-SchoolWork/gallery-of-horns/pull/2
+>>>>URL: https://trusting-sinoussi-6233a8.netlify.app
+>>>>>Links you used as reference:
+>>>>>>Reflections and Comments:
 
 >Number and name of feature: #1: Display images
 >>Estimate of day's needed to complete: One
