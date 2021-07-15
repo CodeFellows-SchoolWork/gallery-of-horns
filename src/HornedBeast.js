@@ -67,41 +67,44 @@ class HornedBeast extends React.Component {
 
   render() {
     return (
-      <Card className="hornedBeast">
-        <Card.Title
-          style={{ color: this.state.title }}
-          onClick={this.changeTitleCss}>{(this.props.title)}
-        </Card.Title>
+      <div id="cardDiv">
+        <Card className="hornedBeast">
+          <Card.Title
+            style={{ color: this.state.title }}
+            onClick={this.changeTitleCss}>{(this.props.title)}
+          </Card.Title>
 
-        <Card.Img 
-          style={{width:'18rem'}}
-          onClick={this.addFavorite}
-          src={this.props.image_url}
-          alt={this.props.description}>
-        </Card.Img>
+          <Card.Img
+            style={{ width: '18rem' }}
+            onClick={this.addFavorite}
+            src={this.props.image_url}
+            alt={this.props.description}>
+          </Card.Img>
+          <div id="cardTextCon">
+            <Card.Text id="numberCog"
+              onClick={this.state.changeEmoji}>
+              {this.state.numberCog} 🖤
+            </Card.Text>
 
-        <Card.Text id="numberCog"
-          onClick={this.state.changeEmoji}>
-          {this.state.numberCog} 🖤
-        </Card.Text>
+            <Card.Text id="description"
+              style={{ color: this.state.description }}
+              onClick={this.changeDescriptionCss}>
+              {(this.props.description)}
+            </Card.Text>
 
-        <Card.Text id="description"
-          style={{ color: this.state.description }}
-          onClick={this.changeDescriptionCss}>
-          {(this.props.description)}
-        </Card.Text>
+            <Card.Text id="keyWord"
+              style={{ color: this.state.keyword }}
+              onClick={this.changeKeywordCss}>
+              {(this.props.keyword)}
+            </Card.Text>
+            {/* <p>{(this.props.horns)}</p> */}
+            <Button variant="outline-dark"
+              onClick={this.addFavorite}>favorite!
+            </Button>
+          </div>
 
-        <Card.Text id="keyWord"
-          style={{ color: this.state.keyword }}
-          onClick={this.changeKeywordCss}>
-          {(this.props.keyword)}
-        </Card.Text>
-        {/* <p>{(this.props.horns)}</p> */}
-        <Button variant="outline-dark"
-          onClick={this.addFavorite}>favorite!
-        </Button>
-
-      </Card>
+        </Card>
+      </div>
     )
   }
 }
