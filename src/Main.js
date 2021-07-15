@@ -2,8 +2,6 @@ import React from 'react';
 import data from './data.json'
 import HornedBeast from './HornedBeast.js';
 
-// data.forEach
-
 class Main extends React.Component {
   render() {
     const dataCog = (data) => {
@@ -20,9 +18,6 @@ class Main extends React.Component {
       });
       return objArr;
     };
-
-
-    
 
     return (
       <main>

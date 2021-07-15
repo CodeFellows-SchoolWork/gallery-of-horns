@@ -1,12 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 
  #Header {
-  color: rgb(226, 43, 171);
-  border: solid 2px rebeccapurple;
-  border-radius: 15%;
   width: 90vw;
   margin: auto;
-  margin-top: 2.5%;
-  background-color: rgba(21, 151, 226, 0.137);
-  box-shadow: 20px 20px rgba(128, 128, 128, 0.123);
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+#Header h1 {
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 5px 5px #3131317c;;
 }

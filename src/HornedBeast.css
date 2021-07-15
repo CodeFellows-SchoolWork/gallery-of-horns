@@ -1,13 +1,42 @@
-.card img {
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.card {
+  font-family: 'Kaushan Script', cursive;
   margin: auto;
-  width: 500px;
-  height: 500px;
+  width: 100vh;
+  margin-bottom: 5vh;
   box-shadow: 20px 20px rgba(128, 128, 128, 0.481);
   border-radius: 5%;
 }
 
-h2 {
+.card {
+  background-image: url(./images/bookBackgroundTextBox.jpeg);
+  background-size: cover;
+}
+
+.card img {
+  margin: auto;
+  width: 85vh;
+  height: 85vh;
+  border-radius: 5%;
+}
+
+.card h2 {
   margin-top: 10vh;
+}
+
+#numberCog {
+  font-size: 2.5vh;
+  padding-top: 2.5vh;
+}
+
+#keyWord {
+  font-size: 5vh;
+}
+
+#description {
+  font-size: 3.5vh;
 }
 
 .card button {
@@ -15,3 +44,5 @@ h2 {
   margin: auto;
   margin-bottom: 5vh;
 }
+
+
