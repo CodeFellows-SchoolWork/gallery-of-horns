@@ -2,7 +2,14 @@
 
 >>env FAST_REFRESH=false npm start  
 
->LAB - Number - 2
+>Lab: #, feature: #: #,
+>>Estimate amount of time needed to complete: #,
+>>>Start time: #,
+>>>>Finish time: #,
+>>>>>Actual time needed to complete: #,
+>>>>>>Key requirements: #.
+
+>LAB - Number - 3
 >>Project Name: **Gallery Of Horns** 
 >>>Description: This React App, Is going to display images of horned beasts and let the user interact with the page by allowing them to add likes to the images they like the most.
 
@@ -18,23 +25,30 @@ Total Hours i would charge for my work so far is: 8 Hours,
 This would take me less time in the future.  
 I'd currently charge $35 an hour if this was a payed job.   
 
->Number and name of feature: #1: Display images
+>Lab: 2, feature: #1: Display images,
 >>Estimate amount of time needed to complete: One Hour,
->>>Start time: 9:30, Tue-Jul-13
+>>>Start time: 9:30, Tue-Jul-13,
 >>>>Finish time: 9:45, Wed-Jul-14,
->>>>>Actual time needed to complete: 45min
->>>>>>Key requirements: * As a user, I want to view the images on the page so that I can browse the photo collection. 
+>>>>>Actual time needed to complete: 45min,
+>>>>>>Key requirements: As a user, I want to view the images on the page so that I can browse the photo collection.    
 
->Number and name of feature: #2: Allow users to vote for their favorite beast
+>Lab: 2, feature: #2: Allow users to vote for their favorite beast,  
 >>Estimate amount of time needed to complete: One Hour,
->>>Start time: 9:30, Tue-Jul-13
+>>>Start time: 9:30, Tue-Jul-13,
 >>>>Finish time: 9:45, Wed-Jul-14,
->>>>>Actual time needed to complete: 45min
->>>>>>Key requirements: * As a user, I want to be able to interact with the site and pick my favorite beast.
+>>>>>Actual time needed to complete: 45min,
+>>>>>>Key requirements: As a user, I want to be able to interact with the site and pick my favorite beast.
 
->Number and name of feature: 3: Bootstrap
+>Lab: 2, feature: 3: Bootstrap,
 >>Estimate amount of time needed to complete: One Hour,
->>>Start time: 9:30, Tue-Jul-13
+>>>Start time: 9:30, Tue-Jul-13,
 >>>>Finish time: 9:45, Wed-Jul-14,
->>>>>Actual time needed to complete: 45min
->>>>>>Key requirements: * As a user, I want to see a visually pleasing application that is also responsive when I view this application on different screen sizes.
+>>>>>Actual time needed to complete: 45min,
+>>>>>>Key requirements: As a user, I want to see a visually pleasing application that is also responsive when I view this application on different screen sizes.
+
+>Lab: #, feature: #: #,
+>>Estimate amount of time needed to complete: #,
+>>>Start time: #,
+>>>>Finish time: #,
+>>>>>Actual time needed to complete: #,
+>>>>>>Key requirements: #.
