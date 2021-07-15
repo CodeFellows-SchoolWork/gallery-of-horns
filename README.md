@@ -11,25 +11,28 @@
 >>>submission PR: https://github.com/CodeFellows-SchoolWork/gallery-of-horns/pull/2
 >>>>URL: https://trusting-sinoussi-6233a8.netlify.app
 >>>>>Links you used as reference:
->>>>>>Reflections and Comments:
+>>>>>>Reflections and Comments: Hard coding time was less then i thought but I did spend approx 4-6 Hours doing product research and CSS layout and development,
+I would bill this out as time required to complete the job,
+Total Hours i would charge for my work so far is: 8 Hours, 
+This would take me less time in the future.
 
 >Number and name of feature: #1: Display images
->>Estimate of day's needed to complete: One
+>>Estimate amount of time needed to complete: One Hour,
 >>>Start time: 9:30, Tue-Jul-13
->>>>Finish time: _____
->>>>>Actual time needed to complete: _____
->>>>>>Key requirements: * As a user, I want to view the images on the page so that I can browse the photo collection.
+>>>>Finish time: 9:45, Wed-Jul-14,
+>>>>>Actual time needed to complete: 45min
+>>>>>>Key requirements: * As a user, I want to view the images on the page so that I can browse the photo collection. 
 
 >Number and name of feature: #2: Allow users to vote for their favorite beast
->>Estimate of day's needed to complete: One
+>>Estimate amount of time needed to complete: One Hour,
 >>>Start time: 9:30, Tue-Jul-13
->>>>Finish time: _____
->>>>>Actual time needed to complete: _____
+>>>>Finish time: 9:45, Wed-Jul-14,
+>>>>>Actual time needed to complete: 45min
 >>>>>>Key requirements: * As a user, I want to be able to interact with the site and pick my favorite beast.
 
 >Number and name of feature: 3: Bootstrap
->>Estimate of day's needed to complete: One
+>>Estimate amount of time needed to complete: One Hour,
 >>>Start time: 9:30, Tue-Jul-13
->>>>Finish time: _____
->>>>>Actual time needed to complete: _____
->>>>>>Key requirements: * As a user, I want to see a visually pleasing application that is also reponsive when I view this application on different screen sizes.
+>>>>Finish time: 9:45, Wed-Jul-14,
+>>>>>Actual time needed to complete: 45min
+>>>>>>Key requirements: * As a user, I want to see a visually pleasing application that is also responsive when I view this application on different screen sizes.
