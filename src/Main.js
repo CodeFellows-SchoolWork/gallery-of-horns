@@ -1,11 +1,15 @@
 import React from 'react';
 import CardColumns from 'react-bootstrap/CardColumns';
-import data from './data.json'
+
 import HornedBeast from './HornedBeast.js';
 
+
+
+
 class Main extends React.Component {
+
   render() {
-    const dataResult = data.map((obj, idx) => (
+    const dataResult = this.props.data.map((obj, idx) => (
       <HornedBeast
         key={idx}
         title={obj.title}
@@ -13,6 +17,7 @@ class Main extends React.Component {
         description={obj.description}
         keyword={obj.keyword}
         horns={obj.horns}
+        handleDisplayModal={this.props.handleDisplayModal}
       />
     ));
 
