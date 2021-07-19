@@ -12,6 +12,7 @@ class Main extends React.Component {
     const dataResult = this.props.data.map((obj, idx) => (
       <HornedBeast
         key={idx}
+        x={idx}
         title={obj.title}
         image_url={obj.image_url}
         description={obj.description}
