@@ -66,6 +66,7 @@ class HornedBeast extends React.Component {
 
 
   render() {
+    console.log(this.props);
     return (
       <div id="cardDiv">
         <Card className="hornedBeast">
@@ -75,14 +76,13 @@ class HornedBeast extends React.Component {
           </Card.Title>
 
           <Card.Img
-            onClick={this.props.handleDisplayModal}
+            onClick={()=> this.props.handleDisplayModal(this.props.x)}
             style={{ width: '18rem' }}
             src={this.props.image_url}
             alt={this.props.description}>
           </Card.Img>
           <div id="cardTextCon">
-            <Card.Text id="numberCog"
-              onClick={this.state.changeEmoji}>
+            <Card.Text id="numberCog">
               {this.state.numberCog} 🖤
             </Card.Text>
 

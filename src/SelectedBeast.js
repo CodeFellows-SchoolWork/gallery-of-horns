@@ -4,14 +4,16 @@ import Modal from 'react-bootstrap/Modal';
 class SelectedBeast extends React.Component {
 
   render() {
+    console.log(this.props.selectedBeast);
     return (
       <Modal
-       show = {this.props.handleShowModal}
-       onHide={this.props.handleCloseModal}   
+        show={this.props.handleShowModal}
+        onHide={this.props.handleCloseModal}
       >
-        <Modal.Title>{this.props.title}</Modal.Title>
+        <Modal.Header closeButton>
+          <Modal.Title>{this.props.selectedBeast.title}</Modal.Title>
+        </Modal.Header>
         <Modal.Body>
-
         </Modal.Body>
       </Modal>
 
@@ -20,11 +22,6 @@ class SelectedBeast extends React.Component {
     )
   }
 }
-
-
-
-
-
 
 
 export default SelectedBeast;

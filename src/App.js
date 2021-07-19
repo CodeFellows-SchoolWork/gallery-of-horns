@@ -3,7 +3,7 @@ import Header from './Header.js';
 import Main from './Main.js';
 import Footer from './Footer.js';
 import './App.css';
-import data from './data.json'
+import data from './data.json';
 import SelectedBeast from './SelectedBeast';
 
 class App extends React.Component {
@@ -12,22 +12,30 @@ class App extends React.Component {
     super(props);
     this.state = {
       displayModal: false,
-      selectedBeast: {}, 
+      selectedBeast: {
+        title: '',
+        description: '',
+        image_url: '',
+      }, 
     };
   };
 
-  handleDisplayModal = () => {
+  handleDisplayModal = (key) => {
+    console.log(data[key], typeof key);
     this.setState({
      displayModal: true,
      selectedBeast: {
-       title: this.title,
+       title: data[key].title,
+       description: this.description,
+       image_url: this.image_url,
      },
     });
   };
 
     handleCloseModal = () => {
+      console.log('Made it to the close function');
       this.setState({
-        displayModal:false,
+        displayModal: false,
       });
     };
 
@@ -37,15 +45,15 @@ class App extends React.Component {
       <>
         <Header />
         <SelectedBeast
-        // title="TITLE"
-          key={this.state.idx}
+          selectedBeast = {this.state.selectedBeast}
+          // key={this.state.idx}
           title={this.state.title}
-          image_url={this.state.image_url}
-          description={this.state.description}
-          keyword={this.state.keyword}
-          horns={this.state.horns}
+          // image_url={this.state.image_url}
+          // description={this.state.description}
+          // keyword={this.state.keyword}
+          // horns={this.state.horns}
           handleShowModal={this.state.displayModal}
-          handelCloseModal={this.state.handelCloseModal}
+          handleCloseModal={this.handleCloseModal}
         />
         <Main 
         data={data}
