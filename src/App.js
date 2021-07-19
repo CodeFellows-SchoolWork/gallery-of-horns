@@ -16,28 +16,27 @@ class App extends React.Component {
         title: '',
         description: '',
         image_url: '',
-      }, 
+      },
     };
   };
 
   handleDisplayModal = (key) => {
-    console.log(data[key], typeof key);
     this.setState({
-     displayModal: true,
-     selectedBeast: {
-       title: data[key].title,
-       description: this.description,
-       image_url: this.image_url,
-     },
+      displayModal: true,
+      selectedBeast: {
+        title: data[key].title,
+        description: data[key].description,
+        image_url: data[key].image_url,
+      },
     });
   };
 
-    handleCloseModal = () => {
-      console.log('Made it to the close function');
-      this.setState({
-        displayModal: false,
-      });
-    };
+  handleCloseModal = () => {
+    console.log('Made it to the close function');
+    this.setState({
+      displayModal: false,
+    });
+  };
 
 
   render() {
@@ -45,19 +44,13 @@ class App extends React.Component {
       <>
         <Header />
         <SelectedBeast
-          selectedBeast = {this.state.selectedBeast}
-          // key={this.state.idx}
-          title={this.state.title}
-          // image_url={this.state.image_url}
-          // description={this.state.description}
-          // keyword={this.state.keyword}
-          // horns={this.state.horns}
+          selectedBeast={this.state.selectedBeast}
           handleShowModal={this.state.displayModal}
           handleCloseModal={this.handleCloseModal}
         />
-        <Main 
-        data={data}
-        handleDisplayModal={this.handleDisplayModal}
+        <Main
+          data={data}
+          handleDisplayModal={this.handleDisplayModal}
         />
         <Footer />
       </>
