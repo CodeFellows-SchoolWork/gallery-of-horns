@@ -53,3 +53,10 @@ I'd currently charge $35 an hour if this was a payed job.
 >>>>>**Actual time needed to complete:** #,
 >>>>>>**Key requirements:** As a user, I want the image to be displayed in a larger size and with the description shown so that I can view the details of a single image..
 
+>**Lab:** 4, **Feature:** 1:  Filter by Numbers of Horns,
+>>**Estimate amount of time needed to complete:** 3 hours,
+>>>**Start time:** 10:00am, Wed-Jul-21,
+>>>>**Finish time:** 10:00pm, Wed-Jul-21,
+>>>>>**Actual time needed to complete:** 3 Hours,
+>>>>>>**Key requirements:** As a user, I want to be able to view the beasts by the number of horns.
+
