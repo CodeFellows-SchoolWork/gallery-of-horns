@@ -2,24 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 #cardDiv {
-  width: 65vh;
-  height: 50vh;
+  width: 20rem;
   
-  margin-left: 5vh;
-  margin-right: 5vh;
-  margin-bottom: 40vh;
+  
+
   
 }
 
 #cardTextCon{
-  height: 40vh;
+  height: 15rem;
 }
 
 .card {
   font-family: 'Kaushan Script', cursive;
   margin: auto;
-  width: 100rem;
-  margin-bottom: 5vh;
+  
+  /* margin-bottom: 5vh; */
   box-shadow: 20px 20px rgba(128, 128, 128, 0.481);
   border-radius: 5%;
 }
@@ -31,17 +29,17 @@
 
 .card img {
   margin: auto;
-  width: 40vh;
-  height: 40vh;
+  width: 15rem;
+  height: 15rem;
   border-radius: 5%;
 }
 
 .card h2 {
-  margin-top: 10vh;
+  margin-top: 4rem;
 }
 
 #numberCog {
-  font-size: 2.5vh;
+  font-size: 100%;
   padding-top: 2.5vh;
 }
 
@@ -50,16 +48,16 @@
 }
 
 #description {
-  font-size: 3.5vh;
+  font-size: 100%;
 }
 
 .card button {
   width: fit-content;
   margin: auto;
-  margin-bottom: 5vh;
+  margin-bottom: 3rem;
 }
 
 .Card.Text {
-  width: 20vh;
+  width: 100%;
 }
 
