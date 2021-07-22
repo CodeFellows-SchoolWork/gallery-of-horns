@@ -75,7 +75,7 @@ class HornedBeast extends React.Component {
           </Card.Title>
 
           <Card.Img
-            onClick={() => this.props.handleDisplayModal(this.props.x)}
+            onClick={() => this.props.handleDisplayModal(this.props.beast)}
             style={{ width: '18rem' }}
             src={this.props.image_url}
             alt={this.props.description}>
