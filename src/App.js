@@ -20,19 +20,18 @@ class App extends React.Component {
     };
   };
 
-  handleDisplayModal = (key) => {
+  handleDisplayModal = (beast) => {
     this.setState({
       displayModal: true,
       selectedBeast: {
-        title: data[key].title,
-        description: data[key].description,
-        image_url: data[key].image_url,
+        title: beast.title,
+        description: beast.description,
+        image_url: beast.image_url,
       },
     });
   };
 
   handleCloseModal = () => {
-    console.log('Made it to the close function');
     this.setState({
       displayModal: false,
     });
